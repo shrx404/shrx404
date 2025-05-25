@@ -6,41 +6,127 @@
 <table align="center" cellspacing="0" cellpadding="0">
   <tr>
     <td align="center">
-      <h3>👤 About Me</h3>      <table cellspacing="2" cellpadding="0" style="background:#0d1117; border-radius:6px; padding:8px;">
+      <h3>👤 About Me</h3>
+      <table cellspacing="4" cellpadding="0" style="background:#0d1117; border-radius:6px;">
         <tr>
-          <td style="width:12px;height:12px;background:#39d353;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#39d353" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
         </tr>
         <tr>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#26a641;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#26a641" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
         </tr>
         <tr>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#006d32;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#006d32" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
         </tr>
         <tr>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#0e4429;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
         </tr>
         <tr>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#0e4429;border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+        </tr>
+        <tr>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+        </tr>
+        <tr>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+        </tr>
+        <tr>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+        </tr>
+        <tr>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+        </tr>
+        <tr>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
         </tr>
       </table>
       <p align="center" style="color:#c9d1d9; margin-top:8px;">
@@ -50,86 +136,127 @@
     </td>
     <td width="50"></td>
     <td align="center">
-      <h3>🛠 Skills</h3>      <table cellspacing="4" cellpadding="0" style="background:#0d1117; border-radius:6px; padding:8px;">
+      <h3>🛠 Skills</h3>
+      <table cellspacing="4" cellpadding="0" border="0" style="background:#0d1117;">
         <tr>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#39d353" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
         </tr>
         <tr>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:6px;height:12px;background:#39d353;border-radius:2px;"></td>
-          <td style="width:6px;height:12px;background:#39d353;border-radius:2px;"></td>
-          <td style="width:6px;height:12px;background:#39d353;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#26a641" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
         </tr>
         <tr>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:6px;height:12px;background:#26a641;border-radius:2px;"></td>
-          <td style="width:6px;height:12px;background:#26a641;border-radius:2px;"></td>
-          <td style="width:6px;height:12px;background:#26a641;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#006d32" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
         </tr>
         <tr>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#006d32;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#006d32;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#006d32;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
         </tr>
         <tr>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
         </tr>
         <tr>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#006d32;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#006d32;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#006d32;border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
         </tr>
         <tr>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
         </tr>
         <tr>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
-          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+        </tr>
+        <tr>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+        </tr>
+        <tr>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
+          <td width=6 height=14 bgcolor="#161b22"></td>
         </tr>
       </table>
       <p align="center" style="color:#c9d1d9; margin-top:8px;">
