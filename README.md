@@ -1,119 +1,158 @@
-<div class="min-h-screen bg-[#0d1117] text-[#c9d1d9] p-8">
-<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <!-- Header -->
-  <div class="mb-8">
-    <h1 class="text-4xl font-bold text-[#0969da]">Hey there, I'm Shreyas 👋</h1>
-    <p class="text-sm opacity-80">(@shrx404 on GitHub)</p>
-    <img src="https://komarev.com/ghpvc/?username=shrx404&label=Profile%20Views&color=0969da&style=flat" alt="profile views" class="mt-2"/>
-  </div>
+<h1 align="center">Hey there, I'm Shreyas 👋</h1>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shrx404&label=Profile%20Views&color=0969da&style=flat" alt="profile views"/>
+</p>
 
-  <hr class="border-[#30363d] my-8">
-
-  <!-- Grid Section -->
-  <div class="flex flex-wrap justify-center gap-10">
-    <!-- About Me Card -->
-    <div class="bg-[#161b22] rounded-lg p-6 max-w-xs">
-      <h3 class="text-xl font-semibold text-[#0969da] mb-4 flex items-center gap-2">
-        <span>👤</span> About Me
-      </h3>
-      
-      <!-- Diagonal Pattern -->
-      <div class="grid grid-cols-7 gap-0.5 bg-[#0d1117] rounded-md p-2 mb-4">
-        ${generateDiagonalPattern()}
-      </div>
-
-      <p class="text-center text-sm leading-relaxed opacity-90">
+<table align="center" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">
+      <h3>👤 About Me</h3>      <table cellspacing="2" cellpadding="0" style="background:#0d1117; border-radius:6px; padding:8px;">
+        <tr>
+          <td style="width:12px;height:12px;background:#39d353;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+        </tr>
+        <tr>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#26a641;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+        </tr>
+        <tr>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#006d32;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+        </tr>
+        <tr>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#0e4429;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+        </tr>
+        <tr>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#0e4429;border-radius:2px;"></td>
+        </tr>
+      </table>
+      <p align="center" style="color:#c9d1d9; margin-top:8px;">
         Passionate dev who loves clean code,<br>
         minimalism & building real tools.
       </p>
-    </div>
-
-    <!-- Skills Card -->
-    <div class="bg-[#161b22] rounded-lg p-6 max-w-xs">
-      <h3 class="text-xl font-semibold text-[#0969da] mb-4 flex items-center gap-2">
-        <span>🛠</span> Skills
-      </h3>
-      
-      <!-- Center Pattern -->
-      <div class="grid grid-cols-7 gap-0.5 bg-[#0d1117] rounded-md p-2 mb-4">
-        ${generateCenterPattern()}
-      </div>
-
-      <p class="text-center text-sm leading-relaxed opacity-90">
+    </td>
+    <td width="50"></td>
+    <td align="center">
+      <h3>🛠 Skills</h3>      <table cellspacing="4" cellpadding="0" style="background:#0d1117; border-radius:6px; padding:8px;">
+        <tr>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+        </tr>
+        <tr>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:6px;height:12px;background:#39d353;border-radius:2px;"></td>
+          <td style="width:6px;height:12px;background:#39d353;border-radius:2px;"></td>
+          <td style="width:6px;height:12px;background:#39d353;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+        </tr>
+        <tr>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:6px;height:12px;background:#26a641;border-radius:2px;"></td>
+          <td style="width:6px;height:12px;background:#26a641;border-radius:2px;"></td>
+          <td style="width:6px;height:12px;background:#26a641;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+        </tr>
+        <tr>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#006d32;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#006d32;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#006d32;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td width=12 height=20  style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+        </tr>
+        <tr>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+        </tr>
+        <tr>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#006d32;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#006d32;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#006d32;border-radius:2px;"></td>
+        </tr>
+        <tr>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+        </tr>
+        <tr>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+          <td style="width:12px;height:12px;background:#161b22;border-radius:2px;"></td>
+        </tr>
+      </table>
+      <p align="center" style="color:#c9d1d9; margin-top:8px;">
         JavaScript · Python · HTML5<br>
         CSS3 · Git · Selenium
       </p>
-    </div>
-  </div>
+    </td>
+  </tr>
+</table>
 
-  <hr class="border-[#30363d] my-8">
+<h2 align="center">📫 Get in Touch</h2>
 
-  <!-- Contact Section -->
-  <div class="max-w-2xl mx-auto">
-    <h2 class="text-2xl font-semibold text-[#0969da] mb-4">📫 Get in Touch</h2>
-    <ul class="space-y-2">
-      <li class="flex items-center gap-2">
-        <span>✉️</span>
-        <span>Email:</span>
-        <a href="mailto:4975shreyasy@gmail.com" class="text-[#58a6ff] hover:underline">4975shreyasy@gmail.com</a>
-      </li>
-      <li class="flex items-center gap-2">
-        <span>🐦</span>
-        <span>Twitter:</span>
-        <a href="https://twitter.com/shrx404" class="text-[#58a6ff] hover:underline">@shrx404</a>
-      </li>
-    </ul>
-  </div>
-</div>
+<p align="center">
+  <a href="mailto:4975shreyasy@gmail.com" style="color:#58a6ff; text-decoration:none;">
+    ✉️ 4975shreyasy@gmail.com
+  </a>
+  <br>
+  <a href="https://twitter.com/shrx404" style="color:#58a6ff; text-decoration:none;">
+    🐦 @shrx404
+  </a>
+</p>
 
-<style>
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .grid-cell {
-    width: 12px;
-    height: 12px;
-    border-radius: 2px;
-  }
-  
-  .cell-active {
-    background: #0969da;
-  }
-  
-  .cell-inactive {
-    background: #151c24;
-  }
-</style>
-
-<script>
-function generateDiagonalPattern() {
-  const rows = 5;
-  const cols = 7;
-  let pattern = '';
-  
-  for (let i = 0; i < rows; i++) {
-    pattern += '<div class="grid-cell ' + (i === i ? 'cell-active' : 'cell-inactive') + '"></div>';
-  }
-  
-  return pattern;
-}
-
-function generateCenterPattern() {
-  const pattern = [
-    '0000000',
-    '0011100',
-    '0111110',
-    '0011100',
-    '0000000'
-  ];
-  
-  return pattern.map(row => 
-    row.split('').map(cell => 
-      `<div class="grid-cell ${cell === '1' ? 'cell-active' : 'cell-inactive'}"></div>`
-    ).join('')
-  ).join('');
-}
-</script>
+<!-- GitHub Stats -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shrx404&show_icons=true&theme=github_dark" alt="GitHub Stats"/>
+</p>
