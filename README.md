@@ -1,285 +1,58 @@
-<h1 align="center">Hey there, I'm Shreyas 👋</h1>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shrx404&label=Profile%20Views&color=0969da&style=flat" alt="profile views"/>
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&vCenter=true&width=435&lines=Hey%F0%9F%91%8B%2C+I'm+Shreyas.;A+Full-Stack+Developer.;An+Open+Source+Contributor.)](https://git.io/typing-svg)
 
-<table align="center" cellspacing="0" cellpadding="0">
-  <tr>
-    <td align="center">
-      <h3>👤 About Me</h3>
-      <table cellspacing="4" cellpadding="0" style="background:#0d1117; border-radius:6px;">
-        <tr>
-          <td width=6 height=14 bgcolor="#39d353" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#26a641" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#006d32" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-      </table>
-      <p align="center" style="color:#c9d1d9; margin-top:8px;">
-        Passionate dev who loves clean code,<br>
-        minimalism & building real tools.
-      </p>
-    </td>
-    <td width="50"></td>
-    <td align="center">
-      <h3>🛠 Skills</h3>
-      <table cellspacing="4" cellpadding="0" border="0" style="background:#0d1117;">
-        <tr>
-          <td width=6 height=14 bgcolor="#39d353" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#26a641" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#006d32" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-        <tr>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#0e4429" style="border-radius:2px;"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-          <td width=6 height=14 bgcolor="#161b22"></td>
-        </tr>
-      </table>
-      <p align="center" style="color:#c9d1d9; margin-top:8px;">
-        JavaScript · Python · HTML5<br>
-        CSS3 · Git · Selenium
-      </p>
-    </td>
-  </tr>
-</table>
 
-<h2 align="center">📫 Get in Touch</h2>
+### 📫 Contact
 
-<p align="center">
-  <a href="mailto:4975shreyasy@gmail.com" style="color:#58a6ff; text-decoration:none;">
-    ✉️ 4975shreyasy@gmail.com
-  </a>
-  <br>
-  <a href="https://twitter.com/shrx404" style="color:#58a6ff; text-decoration:none;">
-    🐦 @shrx404
-  </a>
-</p>
+- Discord: ?
+- Email: 4975shreyasy@gmail.com
 
-<!-- GitHub Stats -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shrx404&show_icons=true&theme=github_dark" alt="GitHub Stats"/>
-</p>
+### ✍️ Languages
+
+<!-- ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-C69D00?style=flat&logo=javascript&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-2f74c0?style=flat&logo=typescript&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS-254bdd?style=flat&logo=css3) ![Python](https://img.shields.io/badge/-Python-2b5b83?style=flat&logo=python&logoColor=ffdf76) ![CMD](https://img.shields.io/badge/-CMD-4D4D4D?style=flat&logo=windows-terminal&logoColor=white) -->
+
+<td>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=shrx404&theme=vue-dark&layout=compact&hide_border=true">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=shrx404&theme=vue&layout=compact&hide_border=true">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shrx404&theme=vue&layout=compact&hide_border=true">
+    </picture>
+</td>
+
+### 🛠 Tech Stack and Tools
+
+| End                                                                  | Stack                                                                                                                                                                                                                                                                                                                       |
+| -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Frontend](https://img.shields.io/badge/-Frontend-black?style=flat) | ![React](https://img.shields.io/badge/-React-52BAD7?style=flat&logo=react&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white) |
+| ![Backend](https://img.shields.io/badge/-Backend-black?style=flat)   | ![Node](https://img.shields.io/badge/-Node-white?style=flat&logo=node.js) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![mongoDB](https://img.shields.io/badge/-mongoDB-white?style=flat&logo=mongodb)                                                                                                                                                                   |
+| ![Devops](https://img.shields.io/badge/-Devops-black?style=flat)     | ![GitHub Action][gitHub-action]  ![Nginx](https://img.shields.io/badge/-Nginx-CEF1D1?style=flat&logo=nginx)  ![Docker](https://img.shields.io/badge/-Docker-cbe3f2?style=flat&logo=docker)                                                                                                                                                                    |
+| ![IDE](https://img.shields.io/badge/-IDE-black?style=flat)           | ![Cursor](https://img.shields.io/badge/-Cursor-000000?style=flat&logo=cursor&logoColor=white) ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white) ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white) ![PyCharm](https://img.shields.io/badge/-PyCharm-3a3a3a?style=flat&logo=pycharm)                                                  |
+| ![Workflow](https://img.shields.io/badge/-Ohter-black?style=flat)           | ![Git](https://img.shields.io/badge/-Git-black?style=flat&logo=git) ![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github)     [![Gitmoji][gitmoji]][gcw]                                                                                           |
+
+[gitHub-action]: https://img.shields.io/badge/-GitHub_Actions-black?style=flat&logo=github
+[gitmoji]: https://img.shields.io/badge/-😉_Gitmoji_Commit_Workflow-black?style=flat
+[gcw]: https://github.com/arvinxx/gitmoji-commit-workflow
+
+
+<!-- ### 📊 GitHub Stats
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=shrx404&theme=vue-dark&show_icons=true&hide_border=true">
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=shrx404&theme=vue&show_icons=true&hide_border=true">
+          <img src="https://github-readme-stats.vercel.app/api?username=shrx404&theme=vue&show_icons=true&hide_border=true">
+        </picture>
+      </td>
+    </tr>
+  </tbody>
+</table> -->
+
+### 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayangweb/ayangweb/master/assets/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ayangweb/ayangweb/master/assets/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ayangweb/ayangweb/master/assets/github-contribution-grid-snake.svg">
+</picture>
