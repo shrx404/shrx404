@@ -2,8 +2,8 @@ name: Weekly README update
 
 on:
   schedule:
-    - cron: '0 0 * * 0'  # Every Sunday 00:00 UTC
-  workflow_dispatch:    # manual run button in Actions
+    - cron: '0 0 * * 0' # every Sunday 00:00 UTC
+  workflow_dispatch:    # allow manual runs
 
 permissions:
   contents: write
@@ -17,54 +17,19 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-      - name: Build languages block and update README
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && python -m pip install requests
+
+      - name: Run README updater script
         env:
           OWNER: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # Gather languages from up to 100 repos
-          repos_api="https://api.github.com/users/${OWNER}/repos?per_page=100"
-          langs=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" "$repos_api" \
-            | jq -r '.[].language' \
-            | awk 'BEGIN{IGNORECASE=1} /null/ {next} {print}' \
-            | sort \
-            | uniq -c \
-            | sort -rn \
-            | awk '{print "- "$2" ("$1" repo"($1>1?"s": "")")"}' \
-            | head -n 8)
-
-          if [ -z "$langs" ]; then
-            langs="- No languages detected"
-          fi
-
-          printf "%s\n" "$langs" > /tmp/languages_block.txt
-
-          # Safely replace markers in README.md using an indented heredoc python script
-          python3 - <<'PY'
-import re, time, pathlib
-rpath = "README.md"
-content = pathlib.Path(rpath).read_text(encoding="utf8")
-
-try:
-    block = pathlib.Path("/tmp/languages_block.txt").read_text(encoding="utf8").strip()
-except FileNotFoundError:
-    block = "- No languages detected"
-
-new = re.sub(
-    r"<!-- LANGUAGES_START -->[\\s\\S]*?<!-- LANGUAGES_END -->",
-    "<!-- LANGUAGES_START -->\n" + block + "\n<!-- LANGUAGES_END -->",
-    content,
-    flags=re.M
-)
-
-last = "_Last updated: <!-- LAST_UPDATED --> " + time.strftime("%a %b %d %H:%M:%S UTC %Y", time.gmtime())
-new = re.sub(r"_Last updated: <!-- LAST_UPDATED -->.*", last, new)
-
-pathlib.Path(rpath).write_text(new, encoding="utf8")
-PY
+        run: python scripts/update_readme.py
 
       - name: Commit & push if changed
         run: |
@@ -72,7 +37,7 @@ PY
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           if ! git diff --staged --quiet; then
-            git commit -m "chore: weekly README languages update [skip ci]"
+            git commit -m "chore: weekly README auto-update [skip ci]"
             git push
           else
             echo "No changes to README"
