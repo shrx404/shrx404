@@ -1,71 +1,70 @@
 #!/usr/bin/env python3
-import os, sys, time, re
+"""
+Safe README updater:
+- Requires README.md to have exact markers:
+  <!-- PROJECTS_START -->  and  <!-- PROJECTS_END -->
+  <!-- LANGUAGES_START --> and  <!-- LANGUAGES_END -->
+- If markers missing, aborts and does NOT overwrite README
+- Makes a timestamped backup of README before writing
+"""
+import os
+import sys
+import time
+import re
 from pathlib import Path
 
+# try import requests; fail with clear message
 try:
     import requests
-except ImportError:
+except Exception:
     print("Missing dependency 'requests'. Install with: pip install requests")
     sys.exit(2)
 
 OWNER = os.environ.get("OWNER") or os.environ.get("GITHUB_REPOSITORY", "").split("/")[0]
 TOKEN = os.environ.get("GITHUB_TOKEN")
-if not OWNER or not TOKEN:
-    print("OWNER or GITHUB_TOKEN not provided in environment.")
+
+if not OWNER:
+    print("OWNER not set. Export OWNER or run in Actions.")
+    sys.exit(2)
+# TOKEN is optional (unauthenticated will be rate-limited)
+HEADERS = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
+
+README = Path("README.md")
+if not README.exists():
+    print("README.md not found. Aborting.")
     sys.exit(2)
 
-HEADERS = {"Authorization": f"token {TOKEN}", "Accept": "application/vnd.github.v3+json"}
-API_BASE = f"https://api.github.com/users/{OWNER}"
+content = README.read_text(encoding="utf8")
 
-def get_all_repos():
-    repos = []
-    page = 1
-    while True:
-        resp = requests.get(f"{API_BASE}/repos", params={"per_page": 100, "page": page, "type": "owner", "sort": "created"}, headers=HEADERS, timeout=30)
-        if resp.status_code != 200:
-            print("Failed to fetch repos:", resp.status_code, resp.text)
-            break
-        batch = resp.json()
-        if not batch:
-            break
-        repos.extend(batch)
-        if len(batch) < 100:
-            break
-        page += 1
-        if page > 10:
-            break
-    return repos
+# Ensure markers exist
+required_markers = [
+    ("<!-- PROJECTS_START -->", "<!-- PROJECTS_END -->"),
+    ("<!-- LANGUAGES_START -->", "<!-- LANGUAGES_END -->")
+]
 
-def compute_language_bytes(repos, repo_limit=50):
-    lang_bytes = {}
-    sliced = repos[:repo_limit]
-    for r in sliced:
-        url = r.get("languages_url")
-        if not url:
-            continue
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        if resp.status_code != 200:
-            print(f"Warning: languages_url for {r.get('name')} returned {resp.status_code}")
-            continue
-        data = resp.json()
-        for lang, b in data.items():
-            lang_bytes[lang] = lang_bytes.get(lang, 0) + b
-    return lang_bytes
+for s, e in required_markers:
+    if s not in content or e not in content:
+        print(f"Missing markers: {s} ... {e} not found in README.md. Aborting without changes.")
+        sys.exit(2)
 
-def format_languages_block(lang_bytes, top_n=8):
-    total = sum(lang_bytes.values())
-    if total == 0:
-        return ["- No languages detected"]
-    items = sorted(lang_bytes.items(), key=lambda x: x[1], reverse=True)[:top_n]
-    lines = []
-    for lang, b in items:
-        pct = b / total * 100
-        lines.append(f"- {lang} — {b} bytes ({pct:.1f}%)")
-    return lines
+# Fetch repos (safe, owner repos)
+def get_repos(limit=50):
+    url = f"https://api.github.com/users/{OWNER}/repos"
+    params = {"per_page": 100, "type": "owner", "sort": "created"}
+    try:
+        res = requests.get(url, params=params, headers=HEADERS, timeout=30)
+        res.raise_for_status()
+        repos = res.json()
+        return repos[:limit]
+    except Exception as ex:
+        print("Failed to fetch repos:", ex)
+        return []
 
-def format_projects_block(repos, count=5):
-    # sort by creation date (newest first)
-    sorted_repos = sorted(repos, key=lambda r: r.get("created_at") or "", reverse=True)[:count]
+repos = get_repos(50)
+
+# Build projects block (latest 5)
+def projects_block(repos, n=5):
+    sorted_repos = sorted(repos, key=lambda r: r.get("created_at", ""), reverse=True)[:n]
     lines = []
     for r in sorted_repos:
         name = r.get("name")
@@ -76,53 +75,54 @@ def format_projects_block(repos, count=5):
             lines.append(f"- [{name}]({url}) — {lang} — {desc}")
         else:
             lines.append(f"- [{name}]({url}) — {lang}")
-    return lines
+    return lines or ["- No recent projects"]
 
-def replace_block(text, marker_start, marker_end, new_lines):
-    pattern = re.compile(re.escape(marker_start) + r"[\s\S]*?" + re.escape(marker_end), flags=re.M)
-    replacement = marker_start + "\n" + "\n".join(new_lines) + "\n" + marker_end
-    return pattern.sub(replacement, text)
+# Build languages block using repo language field (cheap & safe)
+def languages_block(repos, top=8):
+    counts = {}
+    for r in repos:
+        l = r.get("language")
+        if l:
+            counts[l] = counts.get(l, 0) + 1
+    if not counts:
+        return ["- No languages detected"]
+    items = sorted(counts.items(), key=lambda x: x[1], reverse=True)[:top]
+    return [f"- {lang} ({count} repo{'' if count==1 else 's'})" for lang, count in items]
 
-def main():
-    readme_path = Path("README.md")
-    if not readme_path.exists():
-        print("README.md not found in repo root")
+proj_lines = projects_block(repos, 5)
+lang_lines = languages_block(repos, 8)
+
+# Safety: ensure project marker doesn't cover most of the file
+start_idx = content.find("<!-- PROJECTS_START -->")
+end_idx = content.find("<!-- PROJECTS_END -->")
+if start_idx >= 0 and end_idx > start_idx:
+    covered_len = end_idx - start_idx
+    if covered_len > len(content) * 0.8:
+        print("Safety: project marker block is too large (covers >80% of README). Aborting.")
         sys.exit(2)
 
-    print("Fetching repos...")
-    repos = get_all_repos()
-    if not repos:
-        print("No repos found or failed to fetch repos.")
-    else:
-        print(f"Found {len(repos)} repos (owner={OWNER})")
+# Backup README
+bak = Path(f"README.backup.{int(time.time())}.md")
+bak.write_text(content, encoding="utf8")
+print(f"Backup saved to {bak.name}")
 
-    print("Computing language bytes (first 50 repos)...")
-    lang_bytes = compute_language_bytes(repos, repo_limit=50)
-    lang_block = format_languages_block(lang_bytes, top_n=8)
+# Replace blocks safely
+def replace_between(text, start_marker, end_marker, new_lines):
+    pattern = re.compile(re.escape(start_marker) + r"[\s\S]*?" + re.escape(end_marker), flags=re.M)
+    replacement = start_marker + "\n" + "\n".join(new_lines) + "\n" + end_marker
+    return pattern.sub(replacement, text, count=1)
 
-    print("Building projects block (latest 5)...")
-    projects_block = format_projects_block(repos, count=5)
+new_content = replace_between(content, "<!-- PROJECTS_START -->", "<!-- PROJECTS_END -->", proj_lines)
+new_content = replace_between(new_content, "<!-- LANGUAGES_START -->", "<!-- LANGUAGES_END -->", lang_lines)
 
-    text = readme_path.read_text(encoding="utf8")
+# Update timestamp
+ts = time.strftime("%a %b %d %H:%M:%S UTC %Y", time.gmtime())
+new_content = re.sub(r"_Last updated: <!-- LAST_UPDATED -->.*", f"_Last updated: <!-- LAST_UPDATED --> {ts}", new_content)
 
-    text = replace_block(text, "<!-- LANGUAGES_START -->", "<!-- LANGUAGES_END -->", lang_block)
-    text = replace_block(text, "<!-- PROJECTS_START -->", "<!-- PROJECTS_END -->", projects_block + ["", "<!-- PROJECTS_END -->"] ) if False else text
-
-    # For projects: replace only the inner part between markers, preserving the closing tag
-    text = re.sub(r"<!-- PROJECTS_START -->[\s\S]*?<!-- PROJECTS_END -->",
-                  "<!-- PROJECTS_START -->\n" + "\n".join(projects_block) + "\n<!-- PROJECTS_END -->",
-                  text, flags=re.M)
-
-    # Update last-updated line if present
-    ts = time.strftime("%a %b %d %H:%M:%S UTC %Y", time.gmtime())
-    text = re.sub(r"_Last updated: <!-- LAST_UPDATED -->.*", f"_Last updated: <!-- LAST_UPDATED --> {ts}", text)
-
-    readme_path.write_text(text, encoding="utf8")
-    print("README.md updated locally. Commit via Actions or locally to push changes.")
-    print("Languages block:")
-    print("\n".join(lang_block))
-    print("Projects block:")
-    print("\n".join(projects_block))
-
-if __name__ == "__main__":
-    main()
+if new_content == content:
+    print("No changes detected. README unchanged.")
+else:
+    README.write_text(new_content, encoding="utf8")
+    print("README updated successfully. Changes written locally (Actions will commit).")
+    print("Projects:\n" + "\n".join(proj_lines))
+    print("Languages:\n" + "\n".join(lang_lines))
