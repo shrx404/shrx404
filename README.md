@@ -8,16 +8,9 @@
 
 ### ✍️ Languages
 <!-- LANGUAGES_START -->
-
-<!-- ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-C69D00?style=flat&logo=javascript&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-2f74c0?style=flat&logo=typescript&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS-254bdd?style=flat&logo=css3) ![Python](https://img.shields.io/badge/-Python-2b5b83?style=flat&logo=python&logoColor=ffdf76) ![CMD](https://img.shields.io/badge/-CMD-4D4D4D?style=flat&logo=windows-terminal&logoColor=white) -->
-
-<td>
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=shrx404&theme=vue-dark&layout=compact&hide_border=true">
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=shrx404&theme=vue&layout=compact&hide_border=true">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shrx404&theme=vue&layout=compact&hide_border=true">
-    </picture>
-</td>
+- Python (4 repos)
+- Shell (1 repo)
+- TypeScript (1 repo)
 <!-- LANGUAGES_END -->
 
 ### 🛠 Tech Stack and Tools
@@ -63,7 +56,11 @@
 
 ### 🔭 Latest Projects
 <!-- PROJECTS_START -->
-- Loading...
+- [User-Managment-REST-API](https://github.com/shrx404/User-Managment-REST-API) — Python — This project is a simple User Management REST API built using Flask. It provides endpoints to create and retrieve user data, storing the information in a JSON file. The API is designed to handle basic user management operations such as creating a user and fetching user details by UID or email.
+- [shrx404](https://github.com/shrx404/shrx404) — Python — ~profile~
+- [Git-SSH-QuickTools](https://github.com/shrx404/Git-SSH-QuickTools) — Shell — A collection of quick and efficient tools for managing SSH connections for Git operations on Windows and Unix-like systems.
+- [ecommerce](https://github.com/shrx404/ecommerce) — TypeScript — A full-featured e-commerce platform built with Next.js, PayloadCMS, and modern web technologies.
+- [python_tinker_calculator](https://github.com/shrx404/python_tinker_calculator) — Python — A desktop calculator application built with Python and Tkinter, featuring multiple calculator interfaces with different designs and functionalities.
 <!-- PROJECTS_END -->
 
-_Last updated: <!-- LAST_UPDATED --> Sun Aug 10 12:57:49 UTC 2025
+_Last updated: <!-- LAST_UPDATED --> Sun Aug 10 13:07:16 UTC 2025
