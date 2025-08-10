@@ -1,3 +1,5 @@
+<!-- PROJECTS_START -->
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&vCenter=true&width=435&lines=Hey%F0%9F%91%8B%2C+I'm+Shreyas.;A+Full-Stack+Developer.;An+Open+Source+Contributor.)](https://git.io/typing-svg)
 
 
@@ -56,3 +58,7 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ayangweb/ayangweb/master/assets/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ayangweb/ayangweb/master/assets/github-contribution-grid-snake.svg">
 </picture>
+
+<!-- PROJECTS_END -->
+
+_Last updated: <!-- LAST_UPDATED -->_
