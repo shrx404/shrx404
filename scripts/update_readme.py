@@ -90,7 +90,7 @@ def languages_block(repos, top=8):
     return [f"- {lang} ({count} repo{'' if count==1 else 's'})" for lang, count in items]
 
 proj_lines = projects_block(repos, 5)
-lang_lines = languages_block(repos, 8)
+# lang_lines = languages_block(repos, 8)
 
 # Safety: ensure project marker doesn't cover most of the file
 start_idx = content.find("<!-- PROJECTS_START -->")
@@ -113,7 +113,7 @@ def replace_between(text, start_marker, end_marker, new_lines):
     return pattern.sub(replacement, text, count=1)
 
 new_content = replace_between(content, "<!-- PROJECTS_START -->", "<!-- PROJECTS_END -->", proj_lines)
-new_content = replace_between(new_content, "<!-- LANGUAGES_START -->", "<!-- LANGUAGES_END -->", lang_lines)
+# new_content = replace_between(new_content, "<!-- LANGUAGES_START -->", "<!-- LANGUAGES_END -->", lang_lines)
 
 # Update timestamp
 ts = time.strftime("%a %b %d %H:%M:%S UTC %Y", time.gmtime())
