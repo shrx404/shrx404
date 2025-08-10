@@ -25,11 +25,11 @@ jobs:
           OWNER: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 1) Get primary languages for up to 100 repos, count and build a markdown list
+          # Gather languages from up to 100 repos
           repos_api="https://api.github.com/users/${OWNER}/repos?per_page=100"
           langs=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" "$repos_api" \
             | jq -r '.[].language' \
-            | awk '/null/ {next} {print}' \
+            | awk 'BEGIN{IGNORECASE=1} /null/ {next} {print}' \
             | sort \
             | uniq -c \
             | sort -rn \
@@ -40,18 +40,16 @@ jobs:
             langs="- No languages detected"
           fi
 
-          # 2) Put the block into a temp file (preserve newlines)
           printf "%s\n" "$langs" > /tmp/languages_block.txt
 
-          # 3) Use python to safely replace the LANGUAGES markers in README.md
+          # Safely replace markers in README.md using an indented heredoc python script
           python3 - <<'PY'
-import re
+import re, time, pathlib
 rpath = "README.md"
-with open(rpath, "r", encoding="utf8") as f:
-    content = f.read()
+content = pathlib.Path(rpath).read_text(encoding="utf8")
+
 try:
-    with open("/tmp/languages_block.txt", "r", encoding="utf8") as g:
-        block = g.read().strip()
+    block = pathlib.Path("/tmp/languages_block.txt").read_text(encoding="utf8").strip()
 except FileNotFoundError:
     block = "- No languages detected"
 
@@ -62,13 +60,10 @@ new = re.sub(
     flags=re.M
 )
 
-# Also update LAST_UPDATED marker if present
-import time
 last = "_Last updated: <!-- LAST_UPDATED --> " + time.strftime("%a %b %d %H:%M:%S UTC %Y", time.gmtime())
 new = re.sub(r"_Last updated: <!-- LAST_UPDATED -->.*", last, new)
 
-with open(rpath, "w", encoding="utf8") as f:
-    f.write(new)
+pathlib.Path(rpath).write_text(new, encoding="utf8")
 PY
 
       - name: Commit & push if changed
