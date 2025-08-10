@@ -1,9 +1,9 @@
-name: Auto Update README
+name: Weekly README update
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Every Sunday at 00:00 UTC
-  workflow_dispatch: # Lets you run it manually from Actions tab
+    - cron: '0 0 * * 0'  # Every Sunday 00:00 UTC
+  workflow_dispatch:    # manual run button in Actions
 
 permissions:
   contents: write
@@ -14,17 +14,71 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Run update script
-        run: |
-          echo "Last updated on $(date)" > updated.txt
-          # You can modify this to actually edit README.md instead of updated.txt
-          sed -i "s|<!-- LAST_UPDATED -->.*|<!-- LAST_UPDATED --> $(date)|" README.md
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Commit changes
+      - name: Build languages block and update README
+        env:
+          OWNER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "Automated README update"
-          git push
+          # 1) Get primary languages for up to 100 repos, count and build a markdown list
+          repos_api="https://api.github.com/users/${OWNER}/repos?per_page=100"
+          langs=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" "$repos_api" \
+            | jq -r '.[].language' \
+            | awk '/null/ {next} {print}' \
+            | sort \
+            | uniq -c \
+            | sort -rn \
+            | awk '{print "- "$2" ("$1" repo"($1>1?"s": "")")"}' \
+            | head -n 8)
+
+          if [ -z "$langs" ]; then
+            langs="- No languages detected"
+          fi
+
+          # 2) Put the block into a temp file (preserve newlines)
+          printf "%s\n" "$langs" > /tmp/languages_block.txt
+
+          # 3) Use python to safely replace the LANGUAGES markers in README.md
+          python3 - <<'PY'
+import re
+rpath = "README.md"
+with open(rpath, "r", encoding="utf8") as f:
+    content = f.read()
+try:
+    with open("/tmp/languages_block.txt", "r", encoding="utf8") as g:
+        block = g.read().strip()
+except FileNotFoundError:
+    block = "- No languages detected"
+
+new = re.sub(
+    r"<!-- LANGUAGES_START -->[\\s\\S]*?<!-- LANGUAGES_END -->",
+    "<!-- LANGUAGES_START -->\n" + block + "\n<!-- LANGUAGES_END -->",
+    content,
+    flags=re.M
+)
+
+# Also update LAST_UPDATED marker if present
+import time
+last = "_Last updated: <!-- LAST_UPDATED --> " + time.strftime("%a %b %d %H:%M:%S UTC %Y", time.gmtime())
+new = re.sub(r"_Last updated: <!-- LAST_UPDATED -->.*", last, new)
+
+with open(rpath, "w", encoding="utf8") as f:
+    f.write(new)
+PY
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: weekly README languages update [skip ci]"
+            git push
+          else
+            echo "No changes to README"
+          fi
