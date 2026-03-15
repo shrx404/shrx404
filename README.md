@@ -71,12 +71,11 @@
 ### 🔭 Latest Projects
 
 <!-- PROJECTS_START -->
-
-- [finance-tracker](https://github.com/shrx404/finance-tracker) — TypeScript
+- [relearning-numpy](https://github.com/shrx404/relearning-numpy) — Jupyter Notebook
+- [relearning-pandas](https://github.com/shrx404/relearning-pandas) — Jupyter Notebook
+- [finance-tracker](https://github.com/shrx404/finance-tracker) — TypeScript — Finance Tracker is a modern, feature-rich personal finance management application built with Next.js and Supabase. It features a stunning dark-mode UI with glassmorphism and animated Aurora background effects.
 - [User-Managment-REST-API](https://github.com/shrx404/User-Managment-REST-API) — Python — This project is a simple User Management REST API built using Flask. It provides endpoints to create and retrieve user data, storing the information in a JSON file. The API is designed to handle basic user management operations such as creating a user and fetching user details by UID or email.
 - [shrx404](https://github.com/shrx404/shrx404) — Python — ~profile~
-- [Git-SSH-QuickTools](https://github.com/shrx404/Git-SSH-QuickTools) — Shell — A collection of quick and efficient tools for managing SSH connections for Git operations on Windows and Unix-like systems.
-- [ecommerce](https://github.com/shrx404/ecommerce) — TypeScript — A full-featured e-commerce platform built with Next.js, PayloadCMS, and modern web technologies.
 <!-- PROJECTS_END -->
 
-\_Last updated: <!-- LAST_UPDATED --> Sun Mar 08 02:48:43 UTC 2026
+\_Last updated: <!-- LAST_UPDATED --> Sun Mar 15 03:21:14 UTC 2026
