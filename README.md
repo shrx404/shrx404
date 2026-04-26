@@ -71,11 +71,11 @@
 ### 🔭 Latest Projects
 
 <!-- PROJECTS_START -->
+- [hackathon418-Final](https://github.com/shrx404/hackathon418-Final) — Jupyter Notebook
 - [User-Managment-with-Docker](https://github.com/shrx404/User-Managment-with-Docker) — JavaScript — This is a Node.js application with MongoDB. With features to fetch all users and add new users, it supports both local development and effortless deployment using Docker Compose.
 - [relearning-numpy](https://github.com/shrx404/relearning-numpy) — Jupyter Notebook
 - [relearning-pandas](https://github.com/shrx404/relearning-pandas) — Jupyter Notebook
 - [finance-tracker](https://github.com/shrx404/finance-tracker) — TypeScript — Finance Tracker is a modern, feature-rich personal finance management application built with Next.js and Supabase. It features a stunning dark-mode UI with glassmorphism and animated Aurora background effects.
-- [User-Managment-REST-API](https://github.com/shrx404/User-Managment-REST-API) — Python — This project is a simple User Management REST API built using Flask. It provides endpoints to create and retrieve user data, storing the information in a JSON file. The API is designed to handle basic user management operations such as creating a user and fetching user details by UID or email.
 <!-- PROJECTS_END -->
 
-\_Last updated: <!-- LAST_UPDATED --> Sun Apr 19 03:38:59 UTC 2026
+\_Last updated: <!-- LAST_UPDATED --> Sun Apr 26 03:44:37 UTC 2026
