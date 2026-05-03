@@ -71,11 +71,11 @@
 ### 🔭 Latest Projects
 
 <!-- PROJECTS_START -->
-- [hackathon418-Final](https://github.com/shrx404/hackathon418-Final) — Jupyter Notebook
+- [india-stock-exchange-sim](https://github.com/shrx404/india-stock-exchange-sim) — Python — high-performance, full-stack trading exchange simulator tailored explicitly for the Indian equity market (NSE)
+- [hackathon418-Final](https://github.com/shrx404/hackathon418-Final) — Jupyter Notebook — On-orbit SAR flood detection powered by IBM's TerraMind foundation model, optimized for edge-computing on satellites to save 99.9% of downlink bandwidth.
 - [User-Managment-with-Docker](https://github.com/shrx404/User-Managment-with-Docker) — JavaScript — This is a Node.js application with MongoDB. With features to fetch all users and add new users, it supports both local development and effortless deployment using Docker Compose.
 - [relearning-numpy](https://github.com/shrx404/relearning-numpy) — Jupyter Notebook
 - [relearning-pandas](https://github.com/shrx404/relearning-pandas) — Jupyter Notebook
-- [finance-tracker](https://github.com/shrx404/finance-tracker) — TypeScript — Finance Tracker is a modern, feature-rich personal finance management application built with Next.js and Supabase. It features a stunning dark-mode UI with glassmorphism and animated Aurora background effects.
 <!-- PROJECTS_END -->
 
-\_Last updated: <!-- LAST_UPDATED --> Sun Apr 26 03:44:37 UTC 2026
+\_Last updated: <!-- LAST_UPDATED --> Sun May 03 03:58:54 UTC 2026
