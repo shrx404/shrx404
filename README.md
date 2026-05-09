@@ -74,8 +74,8 @@
 - [india-stock-exchange-sim](https://github.com/shrx404/india-stock-exchange-sim) — Python — high-performance, full-stack trading exchange simulator tailored explicitly for the Indian equity market (NSE)
 - [Flood-Sense](https://github.com/shrx404/Flood-Sense) — Jupyter Notebook — On-orbit SAR flood detection powered by IBM's TerraMind foundation model, optimized for edge-computing on satellites to save 99.9% of downlink bandwidth.
 - [User-Managment-with-Docker](https://github.com/shrx404/User-Managment-with-Docker) — JavaScript — This is a Node.js application with MongoDB. With features to fetch all users and add new users, it supports both local development and effortless deployment using Docker Compose.
-- [relearning-numpy](https://github.com/shrx404/relearning-numpy) — Jupyter Notebook
-- [relearning-pandas](https://github.com/shrx404/relearning-pandas) — Jupyter Notebook
+- [relearning-numpy](https://github.com/shrx404/relearning-numpy) — Jupyter Notebook — A comprehensive Jupyter guide for mastering NumPy fundamentals, covering array manipulation, slicing, vectorized operations, and random number generation.
+- [relearning-pandas](https://github.com/shrx404/relearning-pandas) — Jupyter Notebook — Comprehensive Pandas tutorial covering DataFrames, Series, CRUD operations, data cleaning, and advanced filtering with practical examples.
 <!-- PROJECTS_END -->
 
-\_Last updated: <!-- LAST_UPDATED --> Sat May 09 13:31:11 UTC 2026
+\_Last updated: <!-- LAST_UPDATED --> Sat May 09 13:41:42 UTC 2026
