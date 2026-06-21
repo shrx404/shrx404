@@ -71,11 +71,11 @@
 ### 🔭 Latest Projects
 
 <!-- PROJECTS_START -->
+- [House-Price-Predictor](https://github.com/shrx404/House-Price-Predictor) — Jupyter Notebook — An end-to-end machine learning pipeline to predict housing prices using Linear Regression, Random Forest, and Gradient Boosting. Includes automated data ingestion, EDA, and feature engineering.
 - [india-stock-exchange-sim](https://github.com/shrx404/india-stock-exchange-sim) — Python — high-performance, full-stack trading exchange simulator tailored explicitly for the Indian equity market (NSE)
 - [Flood-Sense](https://github.com/shrx404/Flood-Sense) — Jupyter Notebook — On-orbit SAR flood detection powered by IBM's TerraMind foundation model, optimized for edge-computing on satellites to save 99.9% of downlink bandwidth.
 - [User-Managment-with-Docker](https://github.com/shrx404/User-Managment-with-Docker) — JavaScript — This is a Node.js application with MongoDB. With features to fetch all users and add new users, it supports both local development and effortless deployment using Docker Compose.
 - [relearning-numpy](https://github.com/shrx404/relearning-numpy) — Jupyter Notebook — A comprehensive Jupyter guide for mastering NumPy fundamentals, covering array manipulation, slicing, vectorized operations, and random number generation.
-- [relearning-pandas](https://github.com/shrx404/relearning-pandas) — Jupyter Notebook — Comprehensive Pandas tutorial covering DataFrames, Series, CRUD operations, data cleaning, and advanced filtering with practical examples.
 <!-- PROJECTS_END -->
 
-\_Last updated: <!-- LAST_UPDATED --> Sun Jun 14 04:56:14 UTC 2026
+\_Last updated: <!-- LAST_UPDATED --> Sun Jun 21 05:05:19 UTC 2026
