@@ -1,11 +1,11 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&vCenter=true&width=435&lines=Hey%F0%9F%91%8B%2C+I'm+Shreyas.;A+Full-Stack+Developer.;An+Open+Source+Contributor.)](https://git.io/typing-svg)
 
-### 📫 Contact
+### Contact
 
-- Discord: ?
+- Discord: [vamp1.ree](https://discordapp.com/users/766860235595579423)
 - Email: 4975shreyasy@gmail.com
 
-### ✍️ Languages
+### Languages
 
 <!-- LANGUAGES_START -->
 
@@ -28,7 +28,7 @@
 <!-- <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="Shreyas's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=shrx404&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a> -->
 <!-- LANGUAGES_END -->
 
-### 🛠 Tech Stack and Tools
+### Tech Stack and Tools
 
 | End                                                                  | Stack                                                                                                                                                                                                                                                                                                                                                                                     |
 | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -68,7 +68,7 @@
 
 ---
 
-### 🔭 Latest Projects
+### Latest Projects
 
 <!-- PROJECTS_START -->
 - [House-Price-Predictor](https://github.com/shrx404/House-Price-Predictor) — Jupyter Notebook — An end-to-end machine learning pipeline to predict housing prices using Linear Regression, Random Forest, and Gradient Boosting. Includes automated data ingestion, EDA, and feature engineering.
