@@ -72,11 +72,11 @@
 ### Latest Projects
 
 <!-- PROJECTS_START -->
-- [Predictive-Sales-Forecasting](https://github.com/shrx404/Predictive-Sales-Forecasting) — Jupyter Notebook
+- [boomerang-motion-landing](https://github.com/shrx404/boomerang-motion-landing) — TypeScript — Modern, motion-driven landing page showcase built with Next.js 16, React 19, TypeScript, and Tailwind CSS v4 featuring glassmorphism and interactive Bento grid layouts.
+- [Predictive-Sales-Forecasting](https://github.com/shrx404/Predictive-Sales-Forecasting) — Jupyter Notebook — Retail sales forecasting and analytics engine using SARIMA, Prophet, XGBoost, Isolation Forests, and Streamlit.
 - [Employee-Attrition-Analysis](https://github.com/shrx404/Employee-Attrition-Analysis) — Jupyter Notebook — Predictive analytics and machine learning pipeline for analyzing HR employee attrition.
 - [House-Price-Predictor](https://github.com/shrx404/House-Price-Predictor) — Jupyter Notebook — An end-to-end machine learning pipeline to predict housing prices using Linear Regression, Random Forest, and Gradient Boosting. Includes automated data ingestion, EDA, and feature engineering.
 - [unity-ML-Agents](https://github.com/shrx404/unity-ML-Agents) — C# — Custom reinforcement learning environments built in Unity, showcasing an AI learning to control a multi-segmented physics-driven worm using the ML-Agents toolkit.
-- [india-stock-exchange-sim](https://github.com/shrx404/india-stock-exchange-sim) — Python — high-performance, full-stack trading exchange simulator tailored explicitly for the Indian equity market (NSE)
 <!-- PROJECTS_END -->
 
-\_Last updated: <!-- LAST_UPDATED --> Sun Aug 02 03:39:07 UTC 2026
+\_Last updated: <!-- LAST_UPDATED --> Tue Aug 04 08:11:45 UTC 2026
