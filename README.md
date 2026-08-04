@@ -72,12 +72,11 @@
 ### Latest Projects
 
 <!-- PROJECTS_START -->
-
+- [Predictive-Sales-Forecasting](https://github.com/shrx404/Predictive-Sales-Forecasting) — Jupyter Notebook
 - [Employee-Attrition-Analysis](https://github.com/shrx404/Employee-Attrition-Analysis) — Jupyter Notebook — Predictive analytics and machine learning pipeline for analyzing HR employee attrition.
 - [House-Price-Predictor](https://github.com/shrx404/House-Price-Predictor) — Jupyter Notebook — An end-to-end machine learning pipeline to predict housing prices using Linear Regression, Random Forest, and Gradient Boosting. Includes automated data ingestion, EDA, and feature engineering.
+- [unity-ML-Agents](https://github.com/shrx404/unity-ML-Agents) — C# — Custom reinforcement learning environments built in Unity, showcasing an AI learning to control a multi-segmented physics-driven worm using the ML-Agents toolkit.
 - [india-stock-exchange-sim](https://github.com/shrx404/india-stock-exchange-sim) — Python — high-performance, full-stack trading exchange simulator tailored explicitly for the Indian equity market (NSE)
-- [Flood-Sense](https://github.com/shrx404/Flood-Sense) — Jupyter Notebook — On-orbit SAR flood detection powered by IBM's TerraMind foundation model, optimized for edge-computing on satellites to save 99.9% of downlink bandwidth.
-- [User-Managment-with-Docker](https://github.com/shrx404/User-Managment-with-Docker) — JavaScript — This is a Node.js application with MongoDB. With features to fetch all users and add new users, it supports both local development and effortless deployment using Docker Compose.
 <!-- PROJECTS_END -->
 
-\_Last updated: <!-- LAST_UPDATED --> Sat Jul 04 02:14:41 UTC 2026
+\_Last updated: <!-- LAST_UPDATED --> Sun Aug 02 03:39:07 UTC 2026
