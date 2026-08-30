@@ -72,11 +72,11 @@
 ### Latest Projects
 
 <!-- PROJECTS_START -->
-- [JurisFlow](https://github.com/shrx404/JurisFlow) — TypeScript
+- [JurisFlow-api](https://github.com/shrx404/JurisFlow-api) — Python
+- [JurisFlow](https://github.com/shrx404/JurisFlow) — Jupyter Notebook
 - [boomerang-motion-landing](https://github.com/shrx404/boomerang-motion-landing) — TypeScript — Modern, motion-driven landing page showcase built with Next.js 16, React 19, TypeScript, and Tailwind CSS v4 featuring glassmorphism and interactive Bento grid layouts.
 - [Predictive-Sales-Forecasting](https://github.com/shrx404/Predictive-Sales-Forecasting) — Jupyter Notebook — Retail sales forecasting and analytics engine using SARIMA, Prophet, XGBoost, Isolation Forests, and Streamlit.
 - [Employee-Attrition-Analysis](https://github.com/shrx404/Employee-Attrition-Analysis) — Jupyter Notebook — Predictive analytics and machine learning pipeline for analyzing HR employee attrition.
-- [House-Price-Predictor](https://github.com/shrx404/House-Price-Predictor) — Jupyter Notebook — An end-to-end machine learning pipeline to predict housing prices using Linear Regression, Random Forest, and Gradient Boosting. Includes automated data ingestion, EDA, and feature engineering.
 <!-- PROJECTS_END -->
 
-\_Last updated: <!-- LAST_UPDATED --> Sun Aug 23 01:49:53 UTC 2026
+\_Last updated: <!-- LAST_UPDATED --> Sun Aug 30 05:04:29 UTC 2026
