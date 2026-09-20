@@ -72,11 +72,11 @@
 ### Latest Projects
 
 <!-- PROJECTS_START -->
-- [JurisFlow-api](https://github.com/shrx404/JurisFlow-api) — Python
-- [JurisFlow](https://github.com/shrx404/JurisFlow) — Jupyter Notebook
+- [Loyal-Knight](https://github.com/shrx404/Loyal-Knight) — TypeScript — Real-time, offline API key and secret leak prevention for VS Code.
+- [buy-or-wait-financial-agent](https://github.com/shrx404/buy-or-wait-financial-agent) — Python
+- [JurisFlow-api](https://github.com/shrx404/JurisFlow-api) — Python — FastAPI inference service predicting procedural stagnation and delays in Indian NI-138 court cases using a CatBoost classifier.
+- [JurisFlow](https://github.com/shrx404/JurisFlow) — Jupyter Notebook — JurisFlow is an ML-powered diagnostic tool that analyzes the historical trajectory of court hearings to predict and flag procedural stagnation, helping administrators optimize scheduling and reduce backlog.
 - [boomerang-motion-landing](https://github.com/shrx404/boomerang-motion-landing) — TypeScript — Modern, motion-driven landing page showcase built with Next.js 16, React 19, TypeScript, and Tailwind CSS v4 featuring glassmorphism and interactive Bento grid layouts.
-- [Predictive-Sales-Forecasting](https://github.com/shrx404/Predictive-Sales-Forecasting) — Jupyter Notebook — Retail sales forecasting and analytics engine using SARIMA, Prophet, XGBoost, Isolation Forests, and Streamlit.
-- [Employee-Attrition-Analysis](https://github.com/shrx404/Employee-Attrition-Analysis) — Jupyter Notebook — Predictive analytics and machine learning pipeline for analyzing HR employee attrition.
 <!-- PROJECTS_END -->
 
-\_Last updated: <!-- LAST_UPDATED --> Sun Sep 13 04:29:52 UTC 2026
+\_Last updated: <!-- LAST_UPDATED --> Sun Sep 20 04:38:05 UTC 2026
