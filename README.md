@@ -72,11 +72,11 @@
 ### Latest Projects
 
 <!-- PROJECTS_START -->
-- [hydradb](https://github.com/shrx404/hydradb) — Unknown — HydraDB - fast graph database on object storage
-- [rocketride-server](https://github.com/shrx404/rocketride-server) — Unknown — High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all from your IDE. Includes VS Code extension, TypeScript/Python SDKs, and Docker deployment.
 - [hindsight](https://github.com/shrx404/hindsight) — Unknown — Hindsight: Agent Memory That Learns
 - [audit-agent](https://github.com/shrx404/audit-agent) — TypeScript — AI compliance & audit co-pilot with real memory — recalls past findings, detects recurring gaps, and predicts audit risk using Hindsight vector memory.
 - [Loyal-Knight](https://github.com/shrx404/Loyal-Knight) — TypeScript — Real-time, offline API key and secret leak prevention for VS Code.
+- [buy-or-wait-financial-agent](https://github.com/shrx404/buy-or-wait-financial-agent) — Python — Solution for HackerRank Orchestrate 2026. An AI agent that rebuilds a user's financial state, resolves conflicting transactions, and dynamically adjusts spending to recommend the best payment plans.
+- [JurisFlow-api](https://github.com/shrx404/JurisFlow-api) — Python — FastAPI inference service predicting procedural stagnation and delays in Indian NI-138 court cases using a CatBoost classifier.
 <!-- PROJECTS_END -->
 
-\_Last updated: <!-- LAST_UPDATED --> Sun Oct 04 05:33:18 UTC 2026
+\_Last updated: <!-- LAST_UPDATED --> Sun Oct 11 05:27:26 UTC 2026
