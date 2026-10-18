@@ -79,4 +79,4 @@
 - [JurisFlow-api](https://github.com/shrx404/JurisFlow-api) — Python — FastAPI inference service predicting procedural stagnation and delays in Indian NI-138 court cases using a CatBoost classifier.
 <!-- PROJECTS_END -->
 
-\_Last updated: <!-- LAST_UPDATED --> Sun Oct 11 05:27:26 UTC 2026
+\_Last updated: <!-- LAST_UPDATED --> Sun Oct 18 04:10:54 UTC 2026
